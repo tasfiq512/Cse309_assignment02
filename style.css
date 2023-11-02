@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 130px;
+    height: auto; 
+}
+.header{
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/pexels-s-migaj-951076.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navber{
+    display: flex;
+    padding: 5% 9%;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+  
+    text-align: right;
+}
+.menu ul li{
+    padding: 7px 13px;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+   
+}
+.menu ul li a{
+    color: white;
+    text-decoration:aliceblue;
+    font-size: 18px;
+}
+.btn-take{
+    padding: 13px 21px;
+    font-size: 13px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    border:2px solid #fff;
+    border-radius: 30px;
+  
+}
+.btn-take:hover{
+    color: black;
+    background-color: #fff;
+}
+.sus-prt{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 90%;
+    color: white;
+    position: absolute;
+   
+}
+.sus-prt h1{
+    margin: 10px 0px 25px;
+    font-size: 45px;
+    font-style:inherit;
+}
+.sus-prt p{
+    margin: 10px 0px 25px;
+    font-size: 20px;
+    font-style:oblique; 
+}
+.lrn-btn{
+    margin: 10px 0px 25px;
+    display: inline-block;
+    color: white;
+    border:1px solid #fff;
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-size: 13px;
+    background: grey;
+    position: relative;
+    text-decoration: none;
+}
+.lrn-btn:hover{
+ color: rgb(255, 255, 255);
+ background-color: transparent;
+}
+.scnd-prt{
+    width: 82%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.scnd-prt h1{
+    margin: 12px 0 27px 0;
+    font-style:inherit;
+}
+.scnd-prt p{
+    line-height: 26px;
+    padding: 12px;
+    font-style:oblique;
+}
+.name-ph{
+    color: rgb(6, 197, 197);
+}
+.thd-prt{
+    margin: 110px 0px 30px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.pic{
+    width: 550px;
+    height: 300px;
+}
+.abt{
+    text-align: center;
+    color:rgb(6, 197, 197) ;   
+    margin: 10px 10px 25px;
+    
+    font-style:inherit;
+}
+.dis-prt{
+    text-align: center;
+}
+.more-prt{
+   margin: 20px 0 10px 0;
+    font-size: 20px;
+    color: rgb(6, 197, 197);
+    text-align: center;
+   
+
+}
+.social-part{
+    background-color: rgb(40, 3, 3);
+    font-size: 26px;
+    text-align: center;
+    padding:25px 0 25px 0;
+}
+.social-part i{
+    padding:8px;
+}
+.last-part{
+    background-color: black;
+    padding: 50px 0 50px 0;
+    color:white;
+    text-align: center;
+}
